@@ -4,7 +4,7 @@ html {
   align-items: center;
   background-color: #078;
   font-family: 'Raleway', Arial, sans-serif;
-  font-size: .5em;
+  line-height: 1.2em;
   color: #333;
 }
 
@@ -13,24 +13,38 @@ html {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 35vw;
-  height: 60vw;
+  width: 30vw;
+  height: 50vw;
   padding-left: 4em;
   padding-right: 4em;
   background-color: white;
   -webkit-box-shadow: 3px 4px 5px -2px rgba(0,0,0,0.61);
--moz-box-shadow: 3px 4px 5px -2px rgba(0,0,0,0.61);
-box-shadow: 3px 4px 5px -2px rgba(0,0,0,0.61);
+  -moz-box-shadow: 3px 4px 5px -2px rgba(0,0,0,0.61);
+  box-shadow: 3px 4px 5px -2px rgba(0,0,0,0.61);
 }
 
 h1 {
 padding-top: 1em;
 padding-bottom: 1em;
-font-size: 3em;
+line-height: 3vw;
+font-size: 3vw;
+font-weight: bolder;
 }
 
 button {
   background-color: #078;
+  font-variant: small-caps;
   color: white;
   margin-bottom: 3em;
+  font-size: 1.5vw;
+}
+
+#fact h2{
+  font-size: 1.5vw;
+  height: 6vw;
+}
+
+img {
+  max-width: 10vw;
+  padding-top: 3vw;
 }
